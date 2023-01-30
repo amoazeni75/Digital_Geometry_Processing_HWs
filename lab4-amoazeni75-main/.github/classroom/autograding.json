@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "task1",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib einops scipy",
+      "run": "pytest task1.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "task2",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib einops scipy",
+      "run": "pytest task2.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "task1",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib einops",
+      "run": "pytest task1.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "task2",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib einops",
+      "run": "pytest task2.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "task3",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib einops",
+      "run": "pytest task3.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "task4",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib einops",
+      "run": "pytest task4.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}

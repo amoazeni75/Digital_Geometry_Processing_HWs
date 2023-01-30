@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "task1",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib scikit-image scipy",
+      "run": "pytest tests.py::test_constraints_sampling_2D",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "task2",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib scikit-image scipy",
+      "run": "pytest tests.py::test_global",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "task3",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib scikit-image scipy",
+      "run": "pytest tests.py::test_local",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "task4",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib scikit-image scipy",
+      "run": "pytest tests.py::test_3d",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
